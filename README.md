@@ -6,7 +6,9 @@
 This repository contains the official implementation of our paper:
 
 > **[Style-Hallucinated Dual Consistency Learning for Domain Generalized Semantic Segmentation](https://arxiv.org/pdf/2204.02548.pdf)**
+> 
 > ***ECCV 2022***
+> 
 > [Yuyang Zhao](http://yuyangzhao.com), [Zhun Zhong](http://zhunzhong.site), [Na Zhao](https://na-z.github.io/), [Nicu Sebe](https://disi.unitn.it/~sebe/), [Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/)
 
 
