@@ -1,4 +1,4 @@
-# Style-Hallucinated Dual Consistency Learning for Domain Generalized Semantic Segmentation
+# Style-Hallucinated Dual Consistency Learning for Domain Generalized Semantic Segmentation (ECCV 2022)
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 <img alt="PyTorch" height="20" src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&style=for-the-badge&logo=PyTorch&logoColor=white" />
