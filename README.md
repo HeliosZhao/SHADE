@@ -112,7 +112,7 @@ CUDA_VISIBLE_DEVICES=0,1 sh scripts/train_r101os16_gtav.sh # Train: GTAV, Test: 
 CUDA_VISIBLE_DEVICES=0,1 sh scripts/train_r50os16_multi.sh # Train: GTAV, Synthia Test: Cityscapes, BDD100K, Mapillary / ResNet50, SHADE
 ```
 #### Test
-You can test SHADE with following commands. You can download models evaluated in our paper at [Github Release]().
+You can test SHADE with following commands. You can download models evaluated in our paper at [Github Release](https://github.com/HeliosZhao/SHADE/releases/tag/v1.0.0).
 ```
 CUDA_VISIBLE_DEVICES=0 sh scripts/valid_r50os16.sh # Test: Cityscapes, BDD100K, Mapillary / ResNet50
 CUDA_VISIBLE_DEVICES=0 sh scripts/valid_r101os16.sh # Test: Cityscapes, BDD100K, Mapillary / ResNet101
