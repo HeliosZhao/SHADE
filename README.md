@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 <img alt="PyTorch" height="20" src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&style=for-the-badge&logo=PyTorch&logoColor=white" />
 
-This repository contains the official implementation of our paper in ***ECCV 2022***:
+This repository contains the official implementation of our paper in:
 
 > **[Style-Hallucinated Dual Consistency Learning for Domain Generalized Semantic Segmentation](https://arxiv.org/pdf/2204.02548.pdf)**
 > 
@@ -112,7 +112,7 @@ CUDA_VISIBLE_DEVICES=0,1 sh scripts/train_r101os16_gtav.sh # Train: GTAV, Test: 
 CUDA_VISIBLE_DEVICES=0,1 sh scripts/train_r50os16_multi.sh # Train: GTAV, Synthia Test: Cityscapes, BDD100K, Mapillary / ResNet50, SHADE
 ```
 #### Test
-You can test SHADE with following commands. You can download models evaluated in our paper at [Github Release](https://github.com/HeliosZhao/SHADE/releases/tag/v1.0.0).
+You can test SHADE with following commands. You can download models evaluated in our paper at [Release](https://github.com/HeliosZhao/SHADE/releases/tag/v1.0.0).
 ```
 CUDA_VISIBLE_DEVICES=0 sh scripts/valid_r50os16.sh # Test: Cityscapes, BDD100K, Mapillary / ResNet50
 CUDA_VISIBLE_DEVICES=0 sh scripts/valid_r101os16.sh # Test: Cityscapes, BDD100K, Mapillary / ResNet101
