@@ -20,7 +20,8 @@ This repository contains the official implementation of our paper in:
 
 <!-- ## Pytorch Implementation -->
 ### Installation
-Clone this repository and install the following packages.
+This paper is trained and evaluated on two NVIDIA RTX 3090 GPUs.
+Clone this repository and install the following packages. 
 ```
 conda create -n shade python=3.7
 conda activate shade
