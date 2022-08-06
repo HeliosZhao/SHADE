@@ -4,12 +4,16 @@ import numpy as np
 
 def farthest_point_sample_tensor(point, npoint):
     """
+    A sampling algorithm from the `"PointNet++: Deep Hierarchical Feature
+    Learning on Point Sets in a Metric Space"
+    <https://arxiv.org/abs/1706.02413>`_ paper, which iteratively samples the
+    most distant point with regard to the rest points.
+    
     Input:
-        xyz: pointcloud data, [N, D] 
+        point: point data for sampling, [N, D] 
         npoint: number of samples
-        dim: dimension for point, 2 for tsne, 6 for img mean concate img std
     Return:
-        centroids: sampled pointcloud index, [npoint, D]
+        centroids: sampled point index, [npoint, D]
     """
     device = point.device
     N, D = point.shape
